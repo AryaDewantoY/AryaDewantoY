@@ -1,0 +1,22 @@
+import { Col, Container, Row, Button } from "react-bootstrap" 
+import "../style/style.css"
+
+const Intro = () => {
+    return (
+        <div className="intro">
+      <Container className="text-green d-flex text-top mt-3 justify-content-center align-items-center">
+        <Row>
+          <Col>
+          <div className="tittle text-center">Kopi Hitam Fake</div>
+          <div className="tittle text-center">Kopi Susu Fake</div>
+          <div className="introButton mt-3 text-center">
+            <Button variant="dark">Pilih Kopi</Button>
+          </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+    )
+}
+
+export default Intro
