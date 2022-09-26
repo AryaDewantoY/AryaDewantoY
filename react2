@@ -1,0 +1,19 @@
+import { Navbar, Container, Nav } from "react-bootstrap"
+
+const Navigationbar = () => {
+    return (
+        <div>
+        <Navbar variant="grey">
+           <Container className="bg-gradient">
+            <Navbar.Brand>Singgah Sejenak Fake</Navbar.Brand>
+            <Nav>
+            <Nav.Link href="#Ngopi">Ngopi</Nav.Link>
+            <Nav.Link href="#Sejenak">Sejenak</Nav.Link>
+            </Nav>
+           </Container>
+        </Navbar>
+        </div>
+    )
+}
+
+export default Navigationbar
